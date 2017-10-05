@@ -52,6 +52,10 @@ foreach ($rows as $feed) {
 			echo "<div>";
 			echo $item->get_local_date();
 			echo "</div>";
+			
+			echo "<div>";
+			echo $item->get_author();
+			echo "</div>";
 
 			echo "<div>";
 			echo $item->get_description();
@@ -68,6 +72,8 @@ foreach ($rows as $feed) {
 				$item->get_feed()->get_permalink() .
 				"','" .
 				$item->get_local_date() .
+				"','" .
+				$item->get_author() .
 				"','" .
 				$item->get_permalink() .
 				"','" .
@@ -86,6 +92,8 @@ foreach ($rows as $feed) {
 				$item->get_title() .
 				"','" .
 				$item->get_local_date() .
+				"','" .
+				$item->get_author() .
 				"','" .
 				$item->get_permalink() .
 				"','" .

@@ -21,6 +21,7 @@ foreach ($rows as $feed) {
 		echo "<pre>\n";
 		echo "Feed id         : " . $item['id'] . "\n";
 		echo "Feed title      : " . $item['feedTitle'] . "\n";
+		echo "Item author      : " . $item['feedTitle'] . "\n";
 		echo "Feed link       : " . $item['feedLink'] . "\n";
 		echo "Item title      : " . $item['itemTitle'] . "\n";
 		echo "Item pub date   : " . $item['itemPubDate'] . "\n";
